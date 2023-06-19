@@ -2,22 +2,23 @@
     margin: 0%;
     padding: 0%;
 }
-
 body{
     background: url("../img/back-ground-tela-login.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: sans-serif;
-}
+    size: auto;
 
-.homepagebt{
+}
+.header{
     display: flex;
-       
-}
+    height: 150px;
 
+}
 button[type="homepage"]{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
     width: 50px;
     height: 50px;
     margin-top: 25px;
@@ -31,28 +32,49 @@ button[type="homepage"]{
     cursor: pointer;
 
 }
-
 button:hover[type="homepage"]{
     background-color: #993399;
 }
-
-#BTHP:active{
+#ButtonHomePage:active{
     background-color: #be7abb;   
 }
+button[type="register"]{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    left: 96%;
+    top: 0;
+    margin-top: 25px;
+    margin-right: 25px;
+    background: #be7abb;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: white;
+}
 
+button:hover[type="register"]{
+    background-color: #993399;
+    
+}
+#Register:active{
+    color: #993399;
+    
+}
 .login{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1200px;
+    height: 1060px;
 
 }
-
 .content{
     width: 300px;
 
 }
-
 .appearance{
     display: flex;
     justify-content: center;
@@ -68,17 +90,15 @@ button:hover[type="homepage"]{
     height: center;
 
 }
-
-.fntlog {
+.fontlogin {
     text-align: center;
     margin-bottom: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
 
 }
-
-input[type="text"],
-input[type="password"] { 
+input[type="userlogin"],
+input[type="passwordlogin"] { 
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -88,16 +108,14 @@ input[type="password"] {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(15px);
 }
-
 #UserLogin::placeholder {
     color: rgb(255, 255, 255);
 
-  }
+}
 #PasswordLogin::placeholder {
     color: rgb(255, 255, 255);
 }
-
-button[type="submit"] {
+button[type="submitlogin"] {
     width: 30%;
     padding: 10px;
     background-color: #be7abb;
@@ -107,17 +125,14 @@ button[type="submit"] {
     cursor: pointer;
 
 }
-
-button:hover[type="submit"]{
+button:hover[type="submitlogin"]{
     background-color: #993399;
     
 }
-
 #EnterLogin:active{
     color: #993399;
     
 }
-
 button[type="forgotpassword"]{
     width: 107px;
     margin-left: 98px;
@@ -128,13 +143,9 @@ button[type="forgotpassword"]{
     cursor: pointer;
     
 }
-
-#ForPass:active{
+#ForgotPass:active{
     color:#993399;
 }
-
-
-
 .footerbase{
     display: flex;
     height: 150px;
@@ -143,9 +154,9 @@ button[type="forgotpassword"]{
     -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
+    font-kerning: 0;
 }
-
-.corporatenotice{
+.corporatedisclaimer{
     display: flex;
     position: relative;
     margin: 20px;
@@ -155,14 +166,13 @@ button[type="forgotpassword"]{
     border-radius: 25px;
 
 }
-
 h6{  
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
     width: auto;
-    margin: 15px;
+    margin: 5px;
     text-align: left;
     color: white;
     font-size: 12px;
@@ -170,8 +180,7 @@ h6{
 
 
 }
-
-.celfooter0{
+.cellfooter0{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,8 +193,7 @@ h6{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
-.celfooter1{
+.cellfooter1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +208,6 @@ h6{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-
 button[type="advertising"]{
     display: flex;
     padding: 5px;
@@ -211,11 +218,9 @@ button[type="advertising"]{
     border: none;
     cursor: pointer;
 }
-
-#advertising:active{
+#Advertising:active{
     color: #993399;   
 }
-
 button[type="cookies"]{
     display: flex;
     padding: 5px;
@@ -226,11 +231,9 @@ button[type="cookies"]{
     border: none;
     cursor: pointer;
 }
-
 #Cookies:active{
     color: #993399;   
 }
-
 button[type="privacy"]{
     display: flex;
     padding: 5px;
@@ -241,11 +244,9 @@ button[type="privacy"]{
     border: none;
     cursor: pointer;
 }
-
 #Privacy:active{
     color: #993399;   
 }
-
 button[type="terms"]{
     display: flex;
     padding: 5px;
@@ -256,12 +257,10 @@ button[type="terms"]{
     border: none;
     cursor: pointer;
 }
-
 #Terms:active{
     color: #993399;   
 }
-
-.redefooter{
+.netfooter{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,7 +269,6 @@ button[type="terms"]{
     height: 110px;
     background-color: transparent;
 }
-
 button[type="socialmidia0"]{
     display: flex;
     justify-content: center;
@@ -287,15 +285,12 @@ button[type="socialmidia0"]{
     border: none;
     cursor: pointer;
 }
-
 button:hover[type="socialmidia0"]{
     background-color: #993399;
 }
-
 #SM0:active{
     background-color: #be7abb;   
 }
-
 button[type="socialmidia1"]{
     display: flex;
     justify-content: center;
@@ -312,15 +307,12 @@ button[type="socialmidia1"]{
     border: none;
     cursor: pointer;
 }
-
 button:hover[type="socialmidia1"]{
     background-color: #993399;
 }
-
 #SM1:active{
     background-color: #be7abb;   
 }
-
 button[type="socialmidia2"]{
     display: flex;
     justify-content: center;
@@ -337,15 +329,12 @@ button[type="socialmidia2"]{
     border: none;
     cursor: pointer;
 }
-
 button:hover[type="socialmidia2"]{
     background-color: #993399;
 }
-
 #SM2:active{
     background-color: #be7abb;   
 }
-
 button[type="socialmidia3"]{
     display: flex;
     justify-content: center;
@@ -363,11 +352,9 @@ button[type="socialmidia3"]{
     border: none;
     cursor: pointer;
 }
-
 button:hover[type="socialmidia3"]{
     background-color: #993399;
 }
-
 #SM3:active{
     background-color: #be7abb;   
 }
