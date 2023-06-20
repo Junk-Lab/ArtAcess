@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body{
-    background: url("../img/back-ground-tela-login.jpg") no-repeat center center fixed;
+    background: url("../img/loginpage.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: sans-serif;
     size: auto;
@@ -25,7 +25,6 @@ button[type="homepage"]{
     margin-left: 25px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
     border: none;
@@ -34,20 +33,21 @@ button[type="homepage"]{
 }
 button:hover[type="homepage"]{
     background-color: #993399;
+    
 }
 #ButtonHomePage:active{
     background-color: #be7abb;   
 }
 button[type="register"]{
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
+    right: 0px;
     width: 80px;
     height: 50px;
     left: 96%;
-    top: 0;
     margin-top: 25px;
-    margin-right: 25px;
     background: #be7abb;
     border-radius: 25px;
     border: none;
@@ -58,17 +58,18 @@ button[type="register"]{
 
 button:hover[type="register"]{
     background-color: #993399;
-    
+
 }
 #Register:active{
     color: #993399;
+    
     
 }
 .login{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1060px;
+    height: 1400px;
 
 }
 .content{
@@ -127,7 +128,8 @@ button[type="submitlogin"] {
 }
 button:hover[type="submitlogin"]{
     background-color: #993399;
-    
+
+
 }
 #EnterLogin:active{
     color: #993399;
@@ -149,16 +151,17 @@ button[type="forgotpassword"]{
 .footerbase{
     display: flex;
     height: 150px;
+    width: 100%;
+    position: relative;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(15px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    font-kerning: 0;
+    
 }
 .corporatedisclaimer{
     display: flex;
-    position: relative;
+    position: fixed;
     margin: 20px;
     width: 400px;
     height: 110px;
@@ -167,9 +170,11 @@ button[type="forgotpassword"]{
 
 }
 h6{  
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    white-space: pre-line;
     height: auto;
     width: auto;
     margin: 5px;
@@ -197,6 +202,7 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
     width: 100%;
     height: 100%;
     margin-top: 10px;
@@ -212,7 +218,7 @@ button[type="advertising"]{
     display: flex;
     padding: 5px;
     height: 10px;
-    color:rgb(255, 255, 255);
+    color: white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
@@ -225,7 +231,7 @@ button[type="cookies"]{
     display: flex;
     padding: 5px;
     height: 10px;
-    color:rgb(255, 255, 255);
+    color:white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
@@ -238,7 +244,7 @@ button[type="privacy"]{
     display: flex;
     padding: 5px;
     height: 10px;
-    color:rgb(255, 255, 255);
+    color:white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
@@ -251,7 +257,7 @@ button[type="terms"]{
     display: flex;
     padding: 5px;
     height: 10px;
-    color:rgb(255, 255, 255);
+    color:white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
@@ -262,11 +268,13 @@ button[type="terms"]{
 }
 .netfooter{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    margin: 20px;
-    width: 400px;
-    height: 110px;
+    position: fixed;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
     background-color: transparent;
 }
 button[type="socialmidia0"]{
