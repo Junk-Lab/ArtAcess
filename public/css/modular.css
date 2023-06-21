@@ -7,12 +7,15 @@ body{
     background-size: cover;
     font-family: sans-serif;
     size: auto;
-
 }
 .header{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
+    grid-template-areas: "void0 void1 void2" ;
     height: 150px;
-
+    width: 100%;
+    position: fixed;
 }
 button[type="homepage"]{
     display: flex;
@@ -29,7 +32,6 @@ button[type="homepage"]{
     border-radius: 25px;
     border: none;
     cursor: pointer;
-
 }
 button:hover[type="homepage"]{
     background-color: #993399;
@@ -38,38 +40,36 @@ button:hover[type="homepage"]{
 #ButtonHomePage:active{
     background-color: #be7abb;   
 }
+
 button[type="register"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    right: 0px;
     width: 80px;
-    height: 50px;
-    left: 96%;
+    padding: 10px;
     margin-top: 25px;
+    margin-left: 85%;
+    margin-right: 20px;
     background: #be7abb;
-    border-radius: 25px;
+    border-radius: 50px;
     border: none;
     cursor: pointer;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     color: white;
 }
-
 button:hover[type="register"]{
     background-color: #993399;
 
 }
 #Register:active{
     color: #993399;
-    
-    
+       
 }
 .login{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1400px;
+    height: 1100px;
 
 }
 .content{
@@ -89,7 +89,6 @@ button:hover[type="register"]{
     border-radius: 25px;
     width: center;
     height: center;
-
 }
 .fontlogin {
     text-align: center;
@@ -111,7 +110,6 @@ input[type="passwordlogin"] {
 }
 #UserLogin::placeholder {
     color: rgb(255, 255, 255);
-
 }
 #PasswordLogin::placeholder {
     color: rgb(255, 255, 255);
@@ -128,12 +126,9 @@ button[type="submitlogin"] {
 }
 button:hover[type="submitlogin"]{
     background-color: #993399;
-
-
 }
 #EnterLogin:active{
     color: #993399;
-    
 }
 button[type="forgotpassword"]{
     width: 107px;
@@ -143,21 +138,28 @@ button[type="forgotpassword"]{
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    
 }
 #ForgotPass:active{
     color:#993399;
 }
 .footerbase{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 150px;
+}
+.gridbase{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
+    grid-template-areas: "void3 void4 void5" ;
     height: 150px;
     width: 100%;
-    position: relative;
+    position: fixed;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(15px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
 }
 .corporatedisclaimer{
     display: flex;
@@ -167,7 +169,6 @@ button[type="forgotpassword"]{
     height: 110px;
     background: transparent;    
     border-radius: 25px;
-
 }
 h6{  
     display: block;
@@ -182,37 +183,16 @@ h6{
     color: white;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-
 }
 .cellfooter0{
     display: flex;
+    align-items: first baseline ;
     justify-content: center;
-    align-items: center;
-    width: 1922px;
-    height: 70px;
     background-color: transparent;
-    text-align: left;
+    margin-top: 110px;
     color: white;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-.cellfooter1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-    height: 70px;
-    background-color: transparent;
-    text-align: left;
-    color: white;
-    font-size: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 button[type="advertising"]{
     display: flex;
@@ -268,13 +248,8 @@ button[type="terms"]{
 }
 .netfooter{
     display: flex;
-    justify-content: right;
     align-items: center;
-    position: fixed;
-    right: 0px;
-    width: 100%;
-    height: 100%;
-    margin: 5px;
+    justify-content: flex-end;
     background-color: transparent;
 }
 button[type="socialmidia0"]{
@@ -283,7 +258,7 @@ button[type="socialmidia0"]{
     align-items: center;
     width: 50px;
     height: 50px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 20px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
@@ -305,7 +280,7 @@ button[type="socialmidia1"]{
     align-items: center;
     width: 50px;
     height: 50px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 20px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
@@ -327,7 +302,7 @@ button[type="socialmidia2"]{
     align-items: center;
     width: 50px;
     height: 50px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 20px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
@@ -349,7 +324,7 @@ button[type="socialmidia3"]{
     align-items: center;
     width: 50px;
     height: 50px;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     background: rgba(255, 255, 255, 0.1);
