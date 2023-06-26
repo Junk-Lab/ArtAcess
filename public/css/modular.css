@@ -39,16 +39,20 @@ button:hover[type="homepage"]{
     background-color: #be7abb;   
 }
 
+.void2{
+    display: flex;
+    justify-content: flex-end;
+}
+
 button[type="register"]{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80px;
-    height: 53px;
+    height: 52px;
     padding: 10px;
     margin-top: 25px;
-    margin-left: 85%;
-    margin-right: 20px;
+    margin-right: 25px;
     background: #be7abb;
     border-radius: 50px;
     border: none;
@@ -69,7 +73,7 @@ button:hover[type="register"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1093px;
+    height: 1210px;
 
 }
 .content{
