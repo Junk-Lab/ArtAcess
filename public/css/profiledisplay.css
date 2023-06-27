@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #44475a;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #282a36;
+    margin: 10px;
+    border-radius: 50px;
+
+}
+
+.profileline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #6272a4;
+}
+
+.photoprofile{
+    display: flex;
+    padding: 90px;
+    border-radius: 50%;
+    margin-top: -25px;
+    background-color: #282a36;
+}
+.username{
+    display: flex;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background-color: #bd93f9;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.inf0{
+    display: flex;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background-color: #bd93f9;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.inf1{
+    display: flex;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background-color: #bd93f9;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.inf2{
+    display: flex;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background-color: #bd93f9;
+    margin-top: 25px;
+    border-radius: 50px;
+
+}
+.inf3{
+    display: flex;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background-color: #bd93f9;
+    margin-top: 25px;
+    border-radius: 50px;
+
+}
+.inf4{
+    display: flex;
+    padding: 10px;
+    height: 5px;
+    width: 200px;
+    background-color: #bd93f9;
+    margin-top: 25px;
+    border-radius: 50px;
+}

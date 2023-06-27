@@ -149,9 +149,8 @@ button[type="forgotpassword"]{
 .footerbase{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 150px;
+    justify-content: center;
+
 }
 .gridbase{
     display: grid;
@@ -160,7 +159,6 @@ button[type="forgotpassword"]{
     grid-template-areas: "void3 void4 void5" ;
     height: 150px;
     width: 100%;
-    position: fixed;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
