@@ -9,8 +9,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 var port = 3000;
 
 
-app.get("/", function(req, res){
+app.get("/login", function(req, res){
     res.render("logindisplay/login");
+});
+
+app.get("/profile", function(req, res){
+    res.render("profiledisplay/profile");
 });
 
 app.listen(port, function(){
