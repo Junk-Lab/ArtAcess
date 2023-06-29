@@ -133,6 +133,7 @@ body{
 }
 .galery{ 
     display: flex;
+    
 }
 .grid3{
     display: flex;
