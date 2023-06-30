@@ -3,6 +3,7 @@
 <head>
   <title>HomePage - Login</title>
   <link rel="stylesheet" type="text/css" href= "css\logindisplay.css">
+  <script type="application/javascript" src="Script/login.js" ></script>
 </head>
   <body>
     <div class="header">
@@ -18,14 +19,14 @@
         </div>
       </div>
     </div>
-    <div class="login">
+    <div class="log">
       <div class="appearance" title="Login">
         <div class="content">
           <h1 class="fontlogin" id="FontLogin">Login</h1>
-            <form">
-              <input type="userlogin" id="UserLogin" placeholder="User" required  title="Username">
-              <input type="passwordlogin" id="PasswordLogin" placeholder="Password" required title="Password" >
-              <button type="submitlogin" Id="EnterLogin" title="Enter">Enter</button>
+            <form onsubmit="login(); return false;">
+              <input type="text" id="UserLogin" placeholder="User" required  title="Username">
+              <input type="password" id="PasswordLogin" placeholder="Password" required title="Password" >
+              <button type="login" Id="EnterLogin" title="Enter">Enter</button>
               <button type="forgotpassword" id="ForgotPass" title="Forgot password" >Forgot password? </button>
             </form>
         </div>

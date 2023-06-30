@@ -69,7 +69,7 @@ button:hover[type="register"]{
     color: #993399;
        
 }
-.login{
+.log{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,8 +101,8 @@ button:hover[type="register"]{
     color: black;
 
 }
-input[type="userlogin"],
-input[type="passwordlogin"] { 
+input[type="text"],
+input[type="password"] { 
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -118,7 +118,7 @@ input[type="passwordlogin"] {
 #PasswordLogin::placeholder {
     color: rgb(255, 255, 255);
 }
-button[type="submitlogin"] {
+button[type="login"] {
     width: 30%;
     padding: 10px;
     background-color: #be7abb;
@@ -128,7 +128,7 @@ button[type="submitlogin"] {
     cursor: pointer;
 
 }
-button:hover[type="submitlogin"]{
+button:hover[type="login"]{
     background-color: #993399;
 }
 #EnterLogin:active{
