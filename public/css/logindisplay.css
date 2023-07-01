@@ -1,13 +1,9 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 body{
-    background: url("../img/loginpage.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background-color: #44475a;
     font-family: sans-serif;
     size: auto;
-}
+}  
 .header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -33,17 +29,14 @@ button[type="homepage"]{
 }
 button:hover[type="homepage"]{
     background-color: #993399;
-    
 }
 #ButtonHomePage:active{
     background-color: #be7abb;   
 }
-
 .void2{
     display: flex;
     justify-content: flex-end;
 }
-
 button[type="register"]{
     display: flex;
     justify-content: center;
@@ -63,22 +56,18 @@ button[type="register"]{
 }
 button:hover[type="register"]{
     background-color: #993399;
-
 }
 #Register:active{
     color: #993399;
-       
 }
 .log{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1210px;
-
+    height: 1201px;
 }
 .content{
     width: 300px;
-
 }
 .appearance{
     display: flex;
@@ -86,10 +75,8 @@ button:hover[type="register"]{
     align-items: center;
     padding: 30px;
     height: 200px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(15px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:  #282a36;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     width: center;
     height: center;
@@ -98,19 +85,19 @@ button:hover[type="register"]{
     text-align: center;
     margin-bottom: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-
+    color: #be7abb;
 }
 input[type="text"],
 input[type="password"] { 
-    width: 100%;
+    width: 280px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 25px;
     border: none;
-    background: rgba(255, 255, 255, 0.30);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(15px);
+    background-color: #44475a;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 #UserLogin::placeholder {
     color: rgb(255, 255, 255);
@@ -119,14 +106,16 @@ input[type="password"] {
     color: rgb(255, 255, 255);
 }
 button[type="login"] {
-    width: 30%;
+    width: 80px;
+    height: 38px;
     padding: 10px;
     background-color: #be7abb;
     color: white;
     border: none;
     border-radius: 25px;
     cursor: pointer;
-
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 button:hover[type="login"]{
     background-color: #993399;
@@ -135,22 +124,29 @@ button:hover[type="login"]{
     color: #993399;
 }
 button[type="forgotpassword"]{
-    width: 107px;
-    margin-left: 98px;
-    color:rgb(255, 255, 255);
+    width: 119px;
+    margin-left: 85px;
+    color: white;
     background-color: transparent;
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #ForgotPass:active{
     color:#993399;
+}
+#AlertLog{
+    margin-top:  10px;
+    margin-left:  72px;
+    color: white;
+    font-size: 15px;
 }
 .footerbase{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .gridbase{
     display: grid;
@@ -159,9 +155,9 @@ button[type="forgotpassword"]{
     grid-template-areas: "void3 void4 void5" ;
     height: 150px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(1px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+    border-radius: 10px;
+    background-color:#282a36;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 .corporatedisclaimer{
     display: flex;
@@ -193,7 +189,6 @@ h6{
     background-color: transparent;
     margin-top: 110px;
     color: white;
-    font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 button[type="advertising"]{
@@ -205,6 +200,8 @@ button[type="advertising"]{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #Advertising:active{
     color: #993399;   
@@ -218,6 +215,8 @@ button[type="cookies"]{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #Cookies:active{
     color: #993399;   
@@ -231,6 +230,8 @@ button[type="privacy"]{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #Privacy:active{
     color: #993399;   
@@ -244,6 +245,8 @@ button[type="terms"]{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #Terms:active{
     color: #993399;   
@@ -258,8 +261,8 @@ button[type="socialmidia0"]{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 53px;
-    height: 53px;
+    width: 10px;
+    height: 10px;
     margin-top: 80px;
     margin-left: 20px;
     background-color: #c4302b;
