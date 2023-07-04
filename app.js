@@ -14,7 +14,7 @@ app.get("/login", function(req, res){
 });
 
 app.get("/profile", function(req, res){
-    res.render("profiledisplay/profile");A
+    res.render("profiledisplay/profile");
 });
 
 app.listen(port, function(){
