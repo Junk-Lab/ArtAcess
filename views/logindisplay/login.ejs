@@ -4,56 +4,64 @@
   <title>HomePage - Login</title>
   <link rel="stylesheet" type="text/css" href= "css\logindisplay.css">
   <script type="application/javascript" src="Script/login.js" ></script>
+  <div class="header">
+    <div class="void0" id="Void0">
+      <div class="logohome">
+        <button type="logohome">
+          <img src="img/LogoArtAccess/logoartaccess.png" alt="HomePage">
+        </button>
+      </div>
+    </div>
+    <div class="void1" id="Void1">
+      <div class="product" id="Product">Products</div>
+      <div class="solutions" id="Solutions">Solutions</div>
+      <div class="foryou" id="ForYou">ForYou</div>
+      <div class="Surpot" id="Suport">Suport</div>
+    </div>
+    <div class="void2" id="Void2">
+    <div class="buttonregister" id="ButtonRegister"> 
+      <button type="register" id="Register" title="Register">Register</button>
+    </div>
+  </div>
+</div>
 </head>
-  <body>
-    <div class="header">
-        <div class="void0" id="Void0">
-          <button type="homepage" id="ButtonHomePage">
-          </button>
-        </div>
-        <div class="void1" id="Void1"></div>
-        <div class="void2" id="Void2">
-        <div class="buttonregister" id="ButtonRegister"> 
-          <button type="register" id="Register" title="Register">Register</button>
-        </div>
+<body>
+  <div class="log">
+    <div class="appearance" title="Login">
+      <div class="content">
+        <h1 class="fontlogin" id="FontLogin">Login</h1>
+          <form onsubmit="login();return false">
+            <input type="text" id="UserLogin" placeholder="User" required  title="Username">
+            <input type="password" id="PasswordLogin" placeholder="Password" required title="Password" >
+            <button type="login" Id="EnterLogin" title="Enter">Enter</button>
+            <button type="forgotpassword" id="ForgotPass" title="Forgot password">Forgot password? </button>
+          </form>
+        <div id="AlertLog"></div>
       </div>
     </div>
-    <div class="log">
-      <div class="appearance" title="Login">
-        <div class="content">
-          <h1 class="fontlogin" id="FontLogin">Login</h1>
-            <form onsubmit="login();return false">
-              <input type="text" id="UserLogin" placeholder="User" required  title="Username">
-              <input type="password" id="PasswordLogin" placeholder="Password" required title="Password" >
-              <button type="login" Id="EnterLogin" title="Enter">Enter</button>
-              <button type="forgotpassword" id="ForgotPass" title="Forgot password">Forgot password? </button>
-            </form>
-          <div id="AlertLog"></div>
-        </div>
-      </div>
-    </div>
-    <div class="footerbase">
-      <div class="gridbase">
-        <div class="void3">
-          <div class="corporatedisclaimer" id="NoteDisclaimer">
-            <div  class="corporatetxt" id="Note0" title="Corporate disclaimer">
-              <h6>ArtAcess is part of JunkLab,an international media group
+  </div>
+  <div class="footerbase">
+    <div class="gridbase">
+      <div class="void3">
+        <div class="corporatedisclaimer" id="NoteDisclaimer">
+          <div  class="corporatetxt" id="Note0" title="Corporate disclaimer">
+            <h6>ArtAcess is part of JunkLab,an international media group
                 and leading digital publisher.Visit our corporate site.
                 © JunkLab, Street ******, 423, Recife-PE, Brazil.
                 All rights reserved. Brazil company registration number 
                 **.***.***/****-**.
-              </h6>
-            </div>
-         </div>
-        </div>
-        <div class="void4">
-          <div class="cellfooter0" id="CellFooter0">
-            <button type="advertising" id="Advertising">Advertising </button>
-            <button type="cookies" id="Cookies">Cookies & Policies</button>
-            <button type="privacy" id="Privacy">Privacy</button>
-            <button type="terms" id="Terms">Terms & Conditions</button>
+            </h6>
           </div>
         </div>
+      </div>
+      <div class="void4">
+        <div class="cellfooter0" id="CellFooter0">
+          <button type="advertising" id="Advertising">Advertising </button>
+          <button type="cookies" id="Cookies">Cookies & Policies</button>
+          <button type="privacy" id="Privacy">Privacy</button>
+          <button type="terms" id="Terms">Terms & Conditions</button>
+        </div>
+      </div>
         <div class="void5"> 
           <div class="netfooter" id="NetFooter">     
             <button Type="socialmidia0" id="SM0" title="YouTube">
