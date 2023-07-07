@@ -1,43 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.header{
+  }
+  
+  .header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: none;
-    grid-template-areas: "void0 void1 void2" ;
+    grid-template-areas: "void0 void1 void2";
     height: 70px;
     width: 100%;
     background-color: #282a36;
     border-radius: 10px;
     position: fixed;
-}
-.void0{
+  }
+  
+  .void0 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-button[type="logohome"]{
+  }
+  
+  #HomePage {
     margin-right: 40px;
     background: transparent;
     border: none;
     cursor: pointer;
-}
-.void1{
+  }
+  
+  .void1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-}
-.void2{
+  }
+  
+  .void2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-}
-button[type="register"]{
+  }
+  
+  button[type="register"] {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,48 +55,56 @@ button[type="register"]{
     cursor: pointer;
     border-radius: 50px;
     font-size: 18px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-}
-button:hover[type="register"]{
+  }
+  
+  button:hover[type="register"] {
     background-color: #993399;
-}
-#Register:active{
+  }
+  
+  #Register:active {
     color: #993399;
-}
-body{
+  }
+  
+  body {
     background-color: #44475a;
     font-family: sans-serif;
-}  
-.log{
+  }
+  
+  .log {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 1215px;
-}
-.content{
+  }
+  
+  .content {
     width: 300px;
-}
-.appearance{
+  }
+  
+  .appearance {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
     height: 200px;
-    background-color:  #282a36;
+    background-color: #282a36;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 25px;
     width: center;
     height: center;
-}
-.fontlogin {
+  }
+  
+  .fontlogin {
     text-align: center;
     margin-bottom: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #be7abb;
-}
-input[type="text"],
-input[type="password"] { 
+  }
+  
+  input[type="text"],
+  input[type="password"] {
     width: 280px;
     padding: 10px;
     margin-bottom: 10px;
@@ -100,15 +113,17 @@ input[type="password"] {
     background-color: #44475a;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-#UserLogin::placeholder {
+  }
+  
+  #UserLogin::placeholder {
     color: rgb(255, 255, 255);
-}
-#PasswordLogin::placeholder {
+  }
+  
+  #PasswordLogin::placeholder {
     color: rgb(255, 255, 255);
-}
-button[type="login"] {
+  }
+  
+  button[type="login"] {
     width: 80px;
     height: 38px;
     padding: 10px;
@@ -119,14 +134,17 @@ button[type="login"] {
     cursor: pointer;
     font-size: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-button:hover[type="login"]{
+  }
+  
+  button:hover[type="login"] {
     background-color: #993399;
-}
-#EnterLogin:active{
+  }
+  
+  #EnterLogin:active {
     color: #993399;
-}
-button[type="forgotpassword"]{
+  }
+  
+  button[type="forgotpassword"] {
     width: 119px;
     margin-left: 85px;
     color: white;
@@ -136,42 +154,50 @@ button[type="forgotpassword"]{
     cursor: pointer;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#ForgotPass:active{
-    color:#993399;
-}
-#AlertLog{
-    margin-top:  10px;
-    margin-left:  72px;
+  }
+  
+  #ForgotPass:active {
+    color: #993399;
+  }
+  
+  #AlertLog {
+    margin-top: 10px;
+    margin-left: 72px;
     color: white;
     font-size: 15px;
-}
-.footerbase{
+  }
+  
+  .footerbase {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.gridbase{
+    align-items: centerAqui está a continuação do CSS formatado:
+  
+  ```css
+  justify-content: center;
+  }
+  
+  .gridbase {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: none;
-    grid-template-areas: "void3 void4 void5" ;
+    grid-template-areas: "void3 void4 void5";
     height: 150px;
     width: 100%;
     border-radius: 10px;
-    background-color:#282a36;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-}
-.corporatedisclaimer{
+    background-color: #282a36;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .corporatedisclaimer {
     display: flex;
     position: fixed;
     margin: 20px;
     width: 400px;
     height: 110px;
-    background: transparent;    
+    background: transparent;
     border-radius: 25px;
-}
-h6{  
+  }
+  
+  h6 {
     display: block;
     justify-content: center;
     align-items: center;
@@ -184,17 +210,19 @@ h6{
     color: white;
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.cellfooter0{
+  }
+  
+  .cellfooter0 {
     display: flex;
-    align-items: first baseline ;
+    align-items: first baseline;
     justify-content: center;
     background-color: transparent;
     margin-top: 110px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-button[type="advertising"]{
+  }
+  
+  button[type="advertising"] {
     display: flex;
     padding: 7px;
     height: 10px;
@@ -205,65 +233,74 @@ button[type="advertising"]{
     cursor: pointer;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#Advertising:active{
-    color: #993399;   
-}
-button[type="cookies"]{
+  }
+  
+  #Advertising:active {
+    color: #993399;
+  }
+  
+  button[type="cookies"] {
     display: flex;
     padding: 7px;
     height: 10px;
-    color:white;
+    color: white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
     cursor: pointer;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#Cookies:active{
-    color: #993399;   
-}
-button[type="privacy"]{
+  }
+  
+  #Cookies:active {
+    color: #993399;
+  }
+  
+  button[type="privacy"] {
     display: flex;
     padding: 7px;
     height: 10px;
-    color:white;
+    color: white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
     cursor: pointer;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#Privacy:active{
-    color: #993399;   
-}
-button[type="terms"]{
+  }
+  
+  #Privacy:active {
+    color: #993399;
+  }
+  
+  button[type="terms"] {
     display: flex;
     padding: 7px;
     height: 10px;
-    color:white;
+    color: white;
     background-color: transparent;
     border-radius: 25px;
     border: none;
     cursor: pointer;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#Terms:active{
-    color: #993399;   
-}
-
-.void5{
+  }
+  
+  #Terms:active {
+    color: #993399;
+  }
+  
+  .void5 {
     padding: auto;
-}
-.netfooter{
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-}
-button[type="socialmidia0"]{
+  }
+  
+  .netfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  button[type="socialmidia0"] {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,14 +311,17 @@ button[type="socialmidia0"]{
     background-color: #0e76a8;
     border: none;
     cursor: pointer;
-}
-button:hover[type="socialmidia0"]{
+  }
+  
+  button:hover[type="socialmidia0"] {
     background-color: #be7abb;
-}
-#SM0:active{
-    background-color: #993399;   
-}
-button[type="socialmidia1"]{
+  }
+  
+  #SM0:active {
+    background-color: #993399;
+  }
+  
+  button[type="socialmidia1"] {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,14 +332,41 @@ button[type="socialmidia1"]{
     background-color: #0e76a8;
     border: none;
     cursor: pointer;
-}
-button:hover[type="socialmidia1"]{
+  }
+  
+  button:hover[type="socialmidia1"] {
     background: #be7abb;
-}
-#SM1:active{
-    background: #993399;   
-}
-button[type="socialmidia2"]{
+  }
+  
+  #SM1:active {
+    background: #993399;
+  }
+  
+  button[type="socialmidia2"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    background-color: #0e76a8;
+    borderDesculpe, parece que o CSS foi truncado na parte final. Aqui está a continuação do CSS formatado:
+  
+  ```css
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover[type="socialmidia2"] {
+    background-color: #be7abb;
+  }
+  
+  #SM2:active {
+    background-color: #993399;
+  }
+  
+  button[type="socialmidia3"] {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,28 +377,13 @@ button[type="socialmidia2"]{
     background-color: #0e76a8;
     border: none;
     cursor: pointer;
-}
-button:hover[type="socialmidia2"]{
+  }
+  
+  button:hover[type="socialmidia3"] {
     background-color: #be7abb;
-}
-#SM2:active{
-    background-color: #993399;   
-}
-button[type="socialmidia3"]{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    margin-top: 15px;
-    margin-right: 20px;
-    background-color: #0e76a8;
-    border: none;
-    cursor: pointer;
-}
-button:hover[type="socialmidia3"]{
-    background-color: #be7abb;
-}
-#SM3:active{
-    background-color: #993399;   
-}
+  }
+  
+  #SM3:active {
+    background-color: #993399;
+  }
+  

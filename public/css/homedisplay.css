@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
+    grid-template-areas: "void0 void1 void2" ;
+    height: 70px;
+    width: 100%;
+    background-color: #282a36;
+    border-radius: 10px;
+    position: fixed;
+}
+.void0{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button[type="homepagelogo"]{
+    margin-right: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.void1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: white;
+}
+.void2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+button[type="register"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 25px;
+    background: #be7abb;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: white;
+}
+button:hover[type="register"]{
+    background-color: #993399;
+}
+#Register:active{
+    color: #993399;
+}

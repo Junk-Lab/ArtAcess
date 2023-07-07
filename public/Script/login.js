@@ -16,3 +16,11 @@ function showAlert(LoginErro){
     }
   }
   
+  function redipage() {
+    var pagehome = "http://localhost:3000/home";
+    window.location.href = pagehome;
+
+    var buttonhome = document.getElementById("HomePage");
+    buttonhome.addEventListener("click", redipage);
+
+  }

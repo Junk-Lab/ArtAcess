@@ -8,6 +8,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 var port = 3000;
 
+app.get("/home", function(req, res){
+    res.render("homedisplay/home");
+});
 
 app.get("/login", function(req, res){
     res.render("logindisplay/login");
