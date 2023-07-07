@@ -35,6 +35,62 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
   }
+
+  button[type="product"] {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #Product:active {
+    color: #993399;
+  }
+
+  button[type="solutions"] {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #Solutions:active {
+    color: #993399;
+  }
+
+  button[type="foryou"] {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #ForYou:active {
+    color: #993399;
+  }
+
+  button[type="suport"] {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #Suport:active {
+    color: #993399;
+  }
   
   .void2 {
     display: flex;
@@ -169,10 +225,7 @@
   
   .footerbase {
     display: flex;
-    align-items: centerAqui está a continuação do CSS formatado:
-  
-  ```css
-  justify-content: center;
+    justify-content: center;
   }
   
   .gridbase {
@@ -351,9 +404,6 @@
     margin-top: 15px;
     margin-right: 20px;
     background-color: #0e76a8;
-    borderDesculpe, parece que o CSS foi truncado na parte final. Aqui está a continuação do CSS formatado:
-  
-  ```css
     border: none;
     cursor: pointer;
   }

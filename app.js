@@ -16,6 +16,10 @@ app.get("/login", function(req, res){
     res.render("logindisplay/login");
 });
 
+app.get("/register", function(req, res){
+    res.render("registerdisplay/register");
+});
+
 app.get("/profile", function(req, res){
     res.render("profiledisplay/profile");
 });
