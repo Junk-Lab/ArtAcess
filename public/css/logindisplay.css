@@ -50,7 +50,7 @@
     color: #993399;
   }
 
-  button[type="solutions"] {
+  #Solutions {
     display: flex;
     background-color: transparent;
     border: none;
@@ -64,7 +64,7 @@
     color: #993399;
   }
 
-  button[type="foryou"] {
+  #ForYou {
     display: flex;
     background-color: transparent;
     border: none;
@@ -78,7 +78,7 @@
     color: #993399;
   }
 
-  button[type="suport"] {
+  #Suport {
     display: flex;
     background-color: transparent;
     border: none;
@@ -353,7 +353,7 @@
     align-items: flex-end;
   }
   
-  button[type="socialmidia0"] {
+  #SM0 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,20 +361,12 @@
     height: 20px;
     margin-top: 15px;
     margin-right: 20px;
-    background-color: #0e76a8;
+    background-color: transparent;
     border: none;
     cursor: pointer;
   }
   
-  button:hover[type="socialmidia0"] {
-    background-color: #be7abb;
-  }
-  
-  #SM0:active {
-    background-color: #993399;
-  }
-  
-  button[type="socialmidia1"] {
+  #SM1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,20 +374,12 @@
     height: 20px;
     margin-top: 15px;
     margin-right: 20px;
-    background-color: #0e76a8;
+    background-color: transparent;
     border: none;
     cursor: pointer;
   }
   
-  button:hover[type="socialmidia1"] {
-    background: #be7abb;
-  }
-  
-  #SM1:active {
-    background: #993399;
-  }
-  
-  button[type="socialmidia2"] {
+  #SM2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -403,20 +387,12 @@
     height: 20px;
     margin-top: 15px;
     margin-right: 20px;
-    background-color: #0e76a8;
+    background-color: transparent;
     border: none;
     cursor: pointer;
   }
-  
-  button:hover[type="socialmidia2"] {
-    background-color: #be7abb;
-  }
-  
-  #SM2:active {
-    background-color: #993399;
-  }
-  
-  button[type="socialmidia3"] {
+
+  #SM3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,16 +400,8 @@
     height: 20px;
     margin-top: 15px;
     margin-right: 20px;
-    background-color: #0e76a8;
+    background-color: transparent;
     border: none;
     cursor: pointer;
-  }
-  
-  button:hover[type="socialmidia3"] {
-    background-color: #be7abb;
-  }
-  
-  #SM3:active {
-    background-color: #993399;
   }
   
