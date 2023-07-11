@@ -36,7 +36,7 @@
     color: white;
   }
 
-  button[type="product"] {
+ #Product {
     display: flex;
     background-color: transparent;
     border: none;
