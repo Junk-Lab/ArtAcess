@@ -51,6 +51,7 @@ function underline(id) {
   }
   var button = document.getElementById(id);
   button.style.textDecoration = "underline";
+  button.style.textDecorationColor = "#ffa500";
 }
 
 //função que faz o redirecionamento da tela de login pra a pagina de se registar.

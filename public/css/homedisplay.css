@@ -91,7 +91,83 @@
   #Suport:active {
     color: #993399;
   }
+
+  #Product #Solutions #ForYou #Suport {
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
   
+  #Product::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffa500; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  #Product:hover::after {
+    transform: scaleX(1);
+  }
+  
+  #Solutions::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #ffa500; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  #Solutions:hover::after {
+    transform: scaleX(1);
+  }
+  
+  #ForYou::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #ffa500; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  #ForYou:hover::after {
+    transform: scaleX(1);
+  }
+  
+  #Suport::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #ffa500; 
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  #Suport:hover::after {
+    transform: scaleX(1);
+  }
+
   .void2 {
     display: flex;
     justify-content: flex-end;
@@ -126,3 +202,5 @@
   body{
     background-color: #44475a;
   }
+
+  
