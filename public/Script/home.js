@@ -9,7 +9,6 @@ function redihome() {
   buttonhome.addEventListener("click", redihome);
 }
 
-
 //função para fazer o redirecionamento da pagina de login para a pagina de 'produtos'
   function product() {
   var Product = "http://localhost:3000/register";
@@ -25,7 +24,6 @@ function solutions() {
   var buttonSolutions = document.getElementById("Solutions");
   buttonSolutions.addEventListener("click", solutions);
 }
-
 
 // Função para fazer o redirecionamento da página de login para a página 'For You'
 function foryou() {
