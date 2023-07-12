@@ -4,6 +4,8 @@
     padding: 0;
   }
   /*-------------------------- Header--------------------------*/ 
+  /* o header foi feito com o 'grid layout' dividido em 3 parte 
+  nomeadas de 'void0'void1'void2' */ 
   .header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -15,20 +17,21 @@
     border-radius: 10px;
     position: fixed;
   }
-  
+  /* void0 tem a logo ArtAccess que tambem tem um botão que que faz
+   um refresh na pagina /home */
   .void0 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
-  
+  /* botão/logo*/
   #HomePage {
     margin-right: 40px;
     background: transparent;
     border: none;
     cursor: pointer;
   }
-  
+  /* void1 tem os botões de navegação de menu 'Product'Solutions'ForYou'Suport'*/
   .void1 {
     display: flex;
     justify-content: space-between;
@@ -168,7 +171,8 @@
   #Suport:hover::after {
     transform: scaleX(1);
   }
-
+  /* o void2 ele contem o botão de 'Register' que vai direcionar para
+   a pagina que o usuario ira se registrar */ 
   .void2 {
     display: flex;
     justify-content: flex-end;
@@ -201,8 +205,11 @@
     color: #993399;
   }
 
+/*-------------------------- Body -------------------------- */
+  
   body{
     background-color: #44475a;
+    transition: background-color #be7abb;;
   }
 
   

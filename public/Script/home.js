@@ -59,3 +59,5 @@ function register() {
   var buttonregister = document.getElementById("Register");
   buttonregister.addEventListener("click", register);
 }
+
+/*-------------------------- Body -------------------------- */
