@@ -46,18 +46,28 @@ function underline(id) {
   var buttons = document.getElementsByTagName("button");
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].style.textDecoration = "none";
+    buttons[i].style.color = "";
   }
   var button = document.getElementById(id);
   button.style.textDecoration = "underline";
-  button.style.textDecorationColor = "#ffa500";
+  button.style.textDecorationColor = "#be7abb";
+  button.style.color = "#be7abb"
 }
 
-//função que faz o redirecionamento da tela de login pra a pagina de se registar.
+//função que faz o redirecionamento da pagina home para a pagina de login.
+function login() {
+  var pagelogin = "http://localhost:3000/login";
+    window.location.href = pagelogin;
+  var buttonlogin = document.getElementById("Login");
+    buttonlogin.addEventListener("click", login);
+}
+
+//função que faz o redirecionamento da pagina home para a pagina de registar.
 function register() {
-  var pagehome = "http://localhost:3000/register";
-  window.location.href = pagehome;
+  var pageregsiter = "http://localhost:3000/register";
+    window.location.href = pageregsiter;
   var buttonregister = document.getElementById("Register");
-  buttonregister.addEventListener("click", register);
+    buttonregister.addEventListener("click", register);
 }
 
 /*-------------------------- Body -------------------------- */
