@@ -4,10 +4,10 @@
     padding: 0;
   }
 
-  /*-------------------------- Header--------------------------*/ 
+  /*-------------------------- ID Header--------------------------*/ 
   /* o header foi feito com o 'grid layout' dividido em 3 parte 
   nomeadas de 'void0'void1'void2' */ 
-  .header {
+  #header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: none;
@@ -237,10 +237,107 @@
     color: #993399;
   }
 
-/*-------------------------- Body -------------------------- */
+  /*-------------------------- Body -------------------------- */
   body{
     background-color: #44475a;
-
+  
   }
+
+
+  .log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1215px;
+  }
+  
+  .content {
+    width: 300px;
+  }
+  
+  .appearance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 200px;
+    background-color: #282a36;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    width: center;
+    height: center;
+  }
+  
+  .fontlogin {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #be7abb;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #44475a;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #UserLogin::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  #PasswordLogin::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+  button[type="login"] {
+    width: 80px;
+    height: 38px;
+    padding: 10px;
+    background-color: #be7abb;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  button:hover[type="login"] {
+    background-color: #993399;
+  }
+  
+  #EnterLogin:active {
+    color: #993399;
+  }
+  
+  button#ForgotPass {
+    width: 119px;
+    margin-left: 85px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #ForgotPass:active {
+    color: #993399;
+  }
+  
+  #AlertLog {
+    margin-top: 10px;
+    margin-left: 72px;
+    color: white;
+    font-size: 15px;
+  }
+  
 
   
